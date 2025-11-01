@@ -13,7 +13,7 @@ const Navbar = () => {
             <div>Contact</div>
           </div>
           <div className='flex gap-2 ml-4'>
-            <button className='border-[#419E5B] border-[2px] px-4 py-0.5 rounded-full'>Sign In</button>
+            <button className='border-[#419E5B] border-2 px-4 py-0.5 rounded-full'>Sign In</button>
             <button className='bg-[#419E5B] text-white px-4 py-0.5 rounded-full'>Try Now</button>
           </div>
         </div>
