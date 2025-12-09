@@ -8,10 +8,10 @@ const ContactUs = () => {
   return (
     <div>
       <ContactHeader />
-      <div className='flex'>
+      <div className='flex m-16'>
         <MessageForm />
         <div>
-          {/* <FAQ field= "contact"/> */}
+          <FAQ field= "contact"/>
           <CorporateContact />
         </div>
       </div>

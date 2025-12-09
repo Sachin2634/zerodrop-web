@@ -18,14 +18,26 @@ const QuesAnsFAQ = [
     },
 ]
 
-const FAQ = (field: string) => {
+interface FAQProps {
+  field: string;
+}
+
+const FAQ = ({ field }: FAQProps) => {
   return (
     <div className='rounded-2xl border border-gray-300 shadow-lg p-6 m-16'>
-      <div>Frequently Asked Questions</div>
-      <div>Quick answers to common questions</div>
-      {/* { QuesAnsFAQ.map((string, idx) => {
-
-      })} */}
+      <div className='text-[#237039] text-lg'>Frequently Asked Questions</div>
+      <div className='text-gray-500 text-sm'>Quick answers to common questions</div>
+      { QuesAnsFAQ.map((string, idx) => {
+        if(string.ques_field.toLowerCase() === field.toLowerCase()){
+          return (
+            <div key={idx} className='mt-4 space-y-2'>
+              <div className='text-sm font-semibold text-[#237039]'>{string.question}</div>
+              <div className='text-xs text-gray-600'>{string.answer}</div>
+            </div>
+          )
+        }
+        return null;
+      })}
     </div>
   )
 }

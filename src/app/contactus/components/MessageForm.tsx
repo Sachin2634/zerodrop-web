@@ -4,11 +4,11 @@ import { TbMessageCircle } from "react-icons/tb";
 
 const MessageForm = () => {
   return (
-    <div className="rounded-2xl border border-gray-300 shadow-lg p-6 m-16">
+    <div className="rounded-2xl border border-gray-300 shadow-lg p-8">
       <div className="flex gap-2 items-center text-2xl text-[#237039] mb-1">
         <TbMessageCircle /> Send Us a Message
       </div>
-      <div className="text-[#237039]/80 text-sm">
+      <div className="text-gray-500 text-sm">
         Fill out the form below and we'll get back to you within 2 hours.
       </div>
       <div className="flex flex-col gap-4 my-8 w-full">
@@ -23,7 +23,7 @@ const MessageForm = () => {
         <input type="text" className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Company/Organization (Optional)"/>
         <input type="text" className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Type of Inquiry"/>
         <input type="text" className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Subject"/>
-        <input type="textarea" className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Message"/>
+        <textarea className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Message"/>
       </div>
       <button className="w-full mt-2 mb-4">
         <div className="flex w-full justify-center items-center bg-[#419E5B] text-white text-xs px-4 py-3 rounded-lg">
