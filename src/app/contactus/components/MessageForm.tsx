@@ -13,17 +13,17 @@ const MessageForm = () => {
       </div>
       <div className="flex flex-col gap-4 my-8 w-full">
         <div className="w-full">
-          <input type="text" className="border border-gray-400 px-2 py-1 rounded-lg text-sm mr-2" placeholder="First Name"/>
-          <input type="text" className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Last Name"/>
+          <input type="text" className="border border-gray-400 px-2 py-2 rounded-lg text-sm mr-2" placeholder="First Name"/>
+          <input type="text" className="border border-gray-400 px-2 py-2 rounded-lg text-sm" placeholder="Last Name"/>
         </div>
         <div>
-          <input type="email" className="border border-gray-400 px-2 py-1 rounded-lg text-sm mr-2" placeholder="Email"/>
-          <input type="text" className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Phone Number"/>
+          <input type="email" className="border border-gray-400 px-2 py-2 rounded-lg text-sm mr-2" placeholder="Email"/>
+          <input type="text" className="border border-gray-400 px-2 py-2 rounded-lg text-sm" placeholder="Phone Number"/>
         </div>
-        <input type="text" className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Company/Organization (Optional)"/>
-        <input type="text" className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Type of Inquiry"/>
-        <input type="text" className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Subject"/>
-        <textarea className="border border-gray-400 px-2 py-1 rounded-lg text-sm" placeholder="Message"/>
+        <input type="text" className="border border-gray-400 px-2 py-2 rounded-lg text-sm" placeholder="Company/Organization (Optional)"/>
+        <input type="text" className="border border-gray-400 px-2 py-2 rounded-lg text-sm" placeholder="Type of Inquiry"/>
+        <input type="text" className="border border-gray-400 px-2 py-2 rounded-lg text-sm" placeholder="Subject"/>
+        <textarea className="border border-gray-400 px-2 py-2 rounded-lg text-sm" placeholder="Message"/>
       </div>
       <button className="w-full mt-2 mb-4">
         <div className="flex w-full justify-center items-center bg-[#419E5B] text-white text-xs px-4 py-3 rounded-lg">

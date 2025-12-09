@@ -8,9 +8,9 @@ const ContactUs = () => {
   return (
     <div>
       <ContactHeader />
-      <div className='flex m-16'>
+      <div className='flex justify-center my-16 space-x-12 space-y-4'>
         <MessageForm />
-        <div>
+        <div className='flex flex-col gap-8'>
           <FAQ field= "contact"/>
           <CorporateContact />
         </div>

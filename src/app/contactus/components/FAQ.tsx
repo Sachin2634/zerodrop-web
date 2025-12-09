@@ -24,7 +24,7 @@ interface FAQProps {
 
 const FAQ = ({ field }: FAQProps) => {
   return (
-    <div className='rounded-2xl border border-gray-300 shadow-lg p-6 m-16'>
+    <div className='rounded-2xl border border-gray-300 shadow-lg p-6'>
       <div className='text-[#237039] text-lg'>Frequently Asked Questions</div>
       <div className='text-gray-500 text-sm'>Quick answers to common questions</div>
       { QuesAnsFAQ.map((string, idx) => {
