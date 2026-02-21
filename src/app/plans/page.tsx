@@ -1,6 +1,6 @@
 import PlanCards from "./components/PlanCards";
 import Addons from "./components/Addons";
-import ReadySection from "../components/ReadySection";
+import ReadySection from "../../commons/ReadySection";
 
 const Plans = () => {
   
