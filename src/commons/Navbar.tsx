@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='h-20 w-full px-16 bg-white fixed flex justify-between items-center shadow-lg'>
+            <div className='h-20 w-full px-16 bg-white fixed flex justify-between items-center shadow-lg z-20'>
                 <img src="/images/logo.png" alt="Zerodrop" className='h-20' />
                 <div className='flex ml-16 gap-20 items-center'>
                     {routes.map((route) => (
